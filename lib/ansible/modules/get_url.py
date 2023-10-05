@@ -261,7 +261,7 @@ EXAMPLES = r'''
 - name: Download file from a file path
   ansible.builtin.get_url:
     url: file:///tmp/a_file.txt
-    dest: /tmp/afilecopy.txt
+    dest: /tmp/a_filecopy.txt
 
 - name: < Fetch file that requires authentication.
         username/password only available since 2.8, in older versions you need to use url_username/url_password
